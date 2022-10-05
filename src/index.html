@@ -1,13 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="UA" class="page">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>NAMU</title>
+    <link rel="icon" href="./images/NAMU.svg">
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonimous"
+    >
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
+
+  <body class="page__body">
+    <header class="header page__section">
+      <div class="container">
+        <div class="header__content">
+          <div class="header__nav top-actions">
+            <a href="#plan-your-visit" class="logo">
+              <img
+                class="logo__image"
+                src="./images/NAMU.svg"
+                alt="NAMU"
+              >
+            </a>
+
+            <div class="top-actions__interactive">
+              <a href="#menu" class="icon icon--menu">
+              </a>
+
+              <div class="top-actions__language">
+                <select name="language"  class="top-actions__language--box">
+                  <option value="UA">
+                    UA
+                  </option>
+                </select>
+                <img
+                  src="./images/Union.svg"
+                  alt="union"
+                  class="top-actions__language--union"
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="header__info">
+            <p class="header__additional">10 серпня - 10 листопада</p>
+            <h1 class="page__title header__title">Мистецтво ХІХ - ХХ ст.</h1>
+            <div class="header__main">
+              <p>Внесок українських митців у світову культуру 19-20ст</p>
+            </div>
+
+            <div class="button button--primary header__button">
+              <a href="#plan-your-visit" class="button__link">Купити квиток</a>
+            </div>
+
+            <h6 class="page__title header__dates">10.08 - 10.10</h6>
+          </div>
+
+          <div class="image header__image">
+            <div class="image__girl"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="menu page__section page__menu" id="menu">
+      <div class="container">
+        <div class="menu__content">
+          <div class="menu__nav top-actions">
+            <a href="#plan-your-visit" class="logo">
+              <img
+                class="logo__image"
+                src="./images/NAMU.svg"
+                alt="NAMU"
+              >
+            </a>
+
+            <div class="top-actions__interactive">
+              <a href="#" class="icon icon--cross">
+              </a>
+
+              <div class="top-actions__language top-actions__language--menu">
+                <select name="language"  class="top-actions__language--box">
+                  <option value="UA">
+                    UA
+                  </option>
+                </select>
+                <img
+                  src="./images/Union.svg"
+                  alt="union"
+                  class="top-actions__language--union"
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="menu__info">
+            <div>
+              <p class="menu__additional">Розклад сьогодні:</p>
+              <p class="menu__main">12:00 - 19:00</p>
+            </div>
+
+            <div>
+              <p class="menu__additional">Адреса:</p>
+              <a
+                class="menu__main menu__link"
+                href="https://goo.gl/maps/9RFoez5SxzfDhTu18"
+                target="_blank"
+              >
+                Київ, вул. М. Грушевського, 6
+              </a>
+            </div>
+          </div>
+
+          <div class="menu__page-nav">
+            <h5 class="page__title menu__title">
+              <a href="#exhibitions" class="menu__link">Актуальні виставки</a>
+            </h5>
+
+            <h5 class="page__title menu__title">
+              <a href="#upcoming-events" class="menu__link">Найближчі події</a>
+            </h5>
+
+            <h5 class="page__title menu__title">
+              <a href="#news" class="menu__link">Новини</a>
+            </h5>
+          </div>
+
+          <div class="button button--primary menu__button">
+            <a href="#plan-your-visit" class="button__link">Купити квиток</a>
+          </div>
+
+          <div class="image menu__image">
+            <div class="image__painter"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
